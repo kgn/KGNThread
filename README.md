@@ -36,7 +36,7 @@ pod 'KGNThread'
 *TODO*
 
 ## Progress
-- [X] Badges
+- [ ] Badges (Create release)
 - [X] Tests
 - [X] Travis
 - [X] Carthage
