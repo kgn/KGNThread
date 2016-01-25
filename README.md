@@ -38,7 +38,7 @@ pod 'KGNThread'
 ## Progress
 - [ ] Badges (Create release)
 - [X] Tests
-- [X] Travis
+- [ ] Travis
 - [X] Carthage
 - [ ] CocoaPods
 - [ ] Description
