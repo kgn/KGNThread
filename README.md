@@ -33,13 +33,47 @@ pod 'KGNThread'
 
 ## Examples
 
-*TODO*
+Each method is called with an optional delay, and a block to execute on the thread.
+
+### Main
+Dispatch on the main thread, useful for updating the UI from a background thread.
+``` Swift
+Thread.Main {
+	// Do something on the main thread
+}
+
+Thread.Main(delay: 2) {
+	// Do something on the main thread,
+	// after a 2 second delay
+}
+```
+
+### Disk
+Dispatch on a serial queue reserved for disk access.
+``` Swift
+Thread.Disk {
+	// Write to disk...
+}
+```
+
+### Global
+Dispatch on the global threads: `high`, `low`, `default`, `background`.
+``` Swift
+Thread.High {
+	// Do something high priority
+}
+
+Thread.Low(delay: 5) {
+	// Do something low priority,
+	// after a 5 second delay
+}
+```
 
 ## Progress
-- [ ] Badges (Create release)
+- [X] Badges
 - [X] Tests
-- [ ] Travis
+- [X] Travis
 - [X] Carthage
-- [ ] CocoaPods
-- [ ] Description
+- [X] CocoaPods
+- [X] Description
 - [X] Documentation
