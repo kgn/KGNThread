@@ -12,7 +12,7 @@ import XCTest
 class KGNThreadTests: XCTestCase {
 
     func testMain() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Main {
             expectation.fulfill()
@@ -22,7 +22,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testMainDelay() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Main(delay: 1) {
             expectation.fulfill()
@@ -32,7 +32,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testDisk() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Disk {
             expectation.fulfill()
@@ -42,7 +42,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testDiskDelay() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Disk(delay: 1) {
             expectation.fulfill()
@@ -52,7 +52,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalHigh() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.High {
             expectation.fulfill()
@@ -62,7 +62,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalHighDelay() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.High(delay: 1) {
             expectation.fulfill()
@@ -72,7 +72,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalLow() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.Low {
             expectation.fulfill()
@@ -82,7 +82,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalLowDelay() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.Low(delay: 1) {
             expectation.fulfill()
@@ -92,7 +92,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalDefault() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.Default {
             expectation.fulfill()
@@ -102,7 +102,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalDefaultDelay() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.Default(delay: 1) {
             expectation.fulfill()
@@ -112,7 +112,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalBackground() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.Background {
             expectation.fulfill()
@@ -122,7 +122,7 @@ class KGNThreadTests: XCTestCase {
     }
 
     func testGlobalBackgroundDelay() {
-        let expectation = expectationWithDescription(__FUNCTION__)
+        let expectation = expectationWithDescription(#function)
 
         Thread.Global.Background(delay: 1) {
             expectation.fulfill()
