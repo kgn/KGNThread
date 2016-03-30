@@ -2,10 +2,8 @@
 
 `KGNThread` is a collection of helpful methods that wrap [Grand Central Dispatch](https://en.wikipedia.org/wiki/Grand_Central_Dispatch).
 
-[![iOS 8.0+](http://img.shields.io/badge/iOS-8.0%2B-blue.svg)]()
-[![Swift 2.0+](http://img.shields.io/badge/Swift-2.0-blue.svg)]()
 [![Release](https://img.shields.io/github/release/kgn/KGNThread.svg)](/releases)
-[![Build Status](http://img.shields.io/badge/License-MIT-lightgrey.svg)](/LICENSE)
+[![License](http://img.shields.io/badge/License-MIT-lightgrey.svg)](/LICENSE)
 
 [![Build Status](https://travis-ci.org/kgn/KGNThread.svg)](https://travis-ci.org/kgn/KGNThread)
 [![Test Coverage](http://img.shields.io/badge/Tests-100%25-green.svg)]()
@@ -76,5 +74,6 @@ Thread.Low(delay: 5) {
 - [X] Description
 - [X] Documentation
 - [ ] AppleTV
+- [ ] AppleWatch
 - [X] Prebuilt Frameworks
 - [ ] Travis Test Matrix
