@@ -76,5 +76,5 @@ Thread.Low(delay: 5) {
 - [X] Description
 - [X] Documentation
 - [ ] AppleTV
-- [ ] Prebuilt Frameworks
+- [X] Prebuilt Frameworks
 - [ ] Travis Test Matrix
