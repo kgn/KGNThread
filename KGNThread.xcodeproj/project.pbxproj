@@ -105,9 +105,9 @@
 		836E69991BCCD3B40089EAB1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				836E69B11BCCD4390089EAB1 /* Thread.swift */,
-				836E699A1BCCD3B40089EAB1 /* KGNThread.h */,
 				836E699C1BCCD3B40089EAB1 /* Info.plist */,
+				836E699A1BCCD3B40089EAB1 /* KGNThread.h */,
+				836E69B11BCCD4390089EAB1 /* Thread.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -356,7 +356,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -377,7 +377,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -565,6 +565,7 @@
 				64D31D691D2B82C7009B93CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64D31D751D2B8338009B93CA /* Build configuration list for PBXNativeTarget "KGNThreadTests-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +574,7 @@
 				64D31D771D2B8338009B93CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836E69911BCCD3B30089EAB1 /* Build configuration list for PBXProject "KGNThread" */ = {
 			isa = XCConfigurationList;
