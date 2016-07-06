@@ -73,7 +73,7 @@ Thread.Low(delay: 5) {
 - [X] CocoaPods
 - [X] Description
 - [X] Documentation
-- [ ] AppleTV
-- [ ] AppleWatch
+- [X] AppleTV
+- [X] AppleWatch
 - [X] Prebuilt Frameworks
 - [ ] Travis Test Matrix
